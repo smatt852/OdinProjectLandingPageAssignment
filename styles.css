@@ -132,15 +132,17 @@ footer {
 }
 .box4 { 
     display: flex;
+    flex:1;
     justify-content: center;
-    align-items: center;
-    gap:32px;
-    padding:36px;
+    align-items: last baseline;
+    gap:10%;
+    padding:10%;
     background-color: #3882f6;
-    border-radius: 5px;
-    margin:100px auto;
+    border-radius: 10px;
+    margin:5%;
     color: #f9faf8;
-    flex-flow: row wrap;
+    flex-direction: row;
+    font-size: 30px;
 }
 .box4 p {
     margin:0px
@@ -153,7 +155,7 @@ footer {
     font-size: 12px;
     justify-content: center; 
     align-items: center; 
-    height: 40px;
+    height: 40%;
     background-color: #1f2937;
     color: white;
 }
