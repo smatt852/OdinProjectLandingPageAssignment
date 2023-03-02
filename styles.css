@@ -15,12 +15,6 @@ a {text-decoration: none;
     gap: 10%;}
 .left { font-size: 24px; 
     color: white;}
-.box {display: flex;
-    flex: 1;
-    flex-direction: row;
-    color: white;
-    background-color: #1f2937;
-    justify-content: left;}
 .box1 {display: flex;
     flex: 1;
     flex-direction: row;
@@ -36,7 +30,10 @@ a {text-decoration: none;
 .box1b {display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    background-color: rgb(165, 163, 163); 
+    color: white; 
+    font-size: 0.7em;"}
 button {color: white;
     background-color: #3882f6;
     width:60px;
@@ -52,6 +49,10 @@ button {color: white;
     margin: 0px;
     padding: 10%;
     background-color: white;}
+.box2a {background-color: white; 
+    color: black; 
+    font-size: 36px; 
+    font-weight: 800;}
 .box2b {display: flex;
     flex: 1;
     flex-direction: row;
@@ -101,3 +102,7 @@ footer {font-weight: 700;
     flex-flow: row wrap;}
 .box4 p {margin:0px}
 .small {font-size: 12px;}
+.box5 { font-size: 12px;
+    justify-content: center; 
+    align-items: center; 
+    height: 40px;}
