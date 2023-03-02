@@ -149,8 +149,11 @@ footer {
     font-size: 12px;
 }
 .box5 { 
+    display: flex;
     font-size: 12px;
     justify-content: center; 
     align-items: center; 
     height: 40px;
+    background-color: #1f2937;
+    color: white;
 }
